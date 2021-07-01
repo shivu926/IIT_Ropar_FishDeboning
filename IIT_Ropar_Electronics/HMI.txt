@@ -1,0 +1,22 @@
+Connected of STM32 Controller
+
+int x;
+printf("%%s", "Enter the choice 1. Fillet 2.Mush")
+scanf("%d",x);
+switch(x):
+{
+case 1:
+	GPIO.output(Motor9.HIGH);
+	break;
+
+case 2:
+	
+	GPIO.output(Motor9.LOW);
+	break;
+
+Default:
+
+	GPIO.output(Motor9.LOW);
+	break;
+
+}	 
